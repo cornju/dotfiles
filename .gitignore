@@ -1,0 +1,73 @@
+# Neovim/LazyVim specific
+nvim/lazy-lock.json
+nvim/.lazy/
+nvim/plugin/
+nvim/lua/plugins/lazy-lock.json
+
+# Mason (LSP/DAP/Linter/Formatter installer)
+nvim/mason/
+
+# Neovim data and state
+nvim/.netrwhist
+nvim/session/
+nvim/sessions/
+nvim/undo/
+nvim/undodir/
+nvim/view/
+nvim/shada/
+nvim/.repro/
+
+# Neovim swap and backup files
+nvim/*.swp
+nvim/*.swo
+nvim/*.swn
+nvim/*~
+nvim/.*.swp
+nvim/.*.swo
+
+# Neovim logs
+nvim/*.log
+nvim/log/
+
+# Compiled Lua
+nvim/*.luac
+nvim/**/*.luac
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# General Vim/Neovim
+*.swp
+*.swo
+*.swn
+*~
+Session.vim
+.netrwhist
+
+# Tags
+tags
+tags.lock
+tags.temp
+
+# Local environment files
+.env
+.env.local
+*.local
+
+# Cache directories
+.cache/
+cache/
+
+# Backup files
+*.bak
+*.backup
+
+.claude
